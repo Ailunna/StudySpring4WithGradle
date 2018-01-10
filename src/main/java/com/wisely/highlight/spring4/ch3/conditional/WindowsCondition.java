@@ -8,7 +8,6 @@ public class WindowsCondition implements Condition{
 
 	@Override
 	public boolean matches(ConditionContext ctx, AnnotatedTypeMetadata metadata) {
-		
 		return ctx.getEnvironment().getProperty("os.name").contains("Windows");
 	}
 
