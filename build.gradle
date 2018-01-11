@@ -30,6 +30,8 @@ compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.8.13'
  compile "commons-io:commons-io:2.5"
  // https://mvnrepository.com/artifact/javax.annotation/jsr250-api
 compile group: 'javax.annotation', name: 'jsr250-api', version: '1.0'
+	// https://mvnrepository.com/artifact/org.springframework/spring-test
+testCompile group: 'org.springframework', name: 'spring-test', version: '5.0.2.RELEASE'
 	
 }
 
